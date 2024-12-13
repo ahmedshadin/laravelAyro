@@ -1,0 +1,10 @@
+@extends('Layout.app')
+@section('content')
+    @include('Components.team')
+    @include('Components.services')
+    @include('Components.pricing')
+    @include('Components.getting-started')
+    @include('Components.blog')
+    @include('Components.client')
+    @include('Components.contact')
+@endsection
